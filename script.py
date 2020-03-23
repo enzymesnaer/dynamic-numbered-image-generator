@@ -1,7 +1,7 @@
 import requests
 
-i = 1
-for i in range(0,131):
+
+for i in range(1,131):
 
     res = requests.get(f'https://dummyimage.com/600x400/fff/000.jpg&text={i}')
 
